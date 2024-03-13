@@ -1,0 +1,12 @@
+from ListChanger import ListChanger
+def stack_sort(stacks):
+    arr2_lenght = len(stacks.arr_1)//2
+    for i in range(arr2_lenght):
+        stacks.pb()
+    print(stacks.arr_2)
+    print(arr2_lenght)
+
+def main():
+    stacks = ListChanger([123, 142, 46, 9, 0], [])
+    stack_sort(stacks)
+main()
